@@ -1,0 +1,91 @@
+body html {
+  height: 100%;
+}
+.btn {
+  cursor: pointer;
+}
+
+body {
+  color: black;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  position: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+  animation: fadeIn 0.5s linear;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.js-clock {
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+
+.greetings {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.js-weather {
+  position: absolute;
+  top: 20px;
+  right: 20px
+}
+
+input {
+  background: none;
+  border: none;
+  font-size: 20px;
+  border-bottom: 2px white solid;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+span {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+
+
+
